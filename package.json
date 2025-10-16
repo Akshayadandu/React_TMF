@@ -1,0 +1,25 @@
+{
+  "name": "tmf_react",
+  "version": "1.0.0",
+  "description": "first react app",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshayadandu/React_TMF.git"
+  },
+  "author": "akshaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshayadandu/React_TMF/issues"
+  },
+  "homepage": "https://github.com/Akshayadandu/React_TMF#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
