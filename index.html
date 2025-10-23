@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .navbar{
+      background-color: #222;
+      color: white;
+      padding: 15px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar h1{
+      margin:0;
+      font-size: 24px;
+    }
+    .nav-links a{
+      color: white;
+      text-decoration: none;
+      margin: 0  15px;
+      font-size: 18px;
+    }
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+    .search-container{
+      background-color: white;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    .search-container input{
+      width: 60%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    h1 {
+      color: #333;
+    }
+    .movie-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .movie-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+    }
+    .movie-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .rating {
+      font-weight: bold;
+      margin: 5px 0;
+      color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+  <h1>🎬 My Movie App</h1>
+  <div class="nav-links">
+    <a href="#">Home</a>
+     <a href="#">Popular</a>
+      <a href="#">Trending</a>
+       <a href="#">Contact</a>
+      </div>
+      </div>
+
+      <div class="search-container">
+        <input type="text" placeholder="Search movies here (non-functional)">
+        </div>
+      
+  <div class="movie-container">
+    <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/I/51zUbui+gbL._AC_.jpg" alt="Inception">
+      <h2>Inception</h2>
+      <p class="rating">⭐ 8.8</p>
+      <p>A thief who steals corporate secrets using dream technology.</p>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/I/91kFYg4fX3L._AC_SY679_.jpg" alt="Interstellar">
+      <h2>Interstellar</h2>
+      <p class="rating">⭐ 8.6</p>
+      <p>Explorers travel through a wormhole in space to ensure humanity's survival.</p>
+    </div>
+
+     <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg" alt="Avatar">
+      <h2>Avatar</h2>
+      <p class="rating">⭐ 7.8</p>
+      <p>A paraplegic Marine is sent to the moon Pandora on a unique mission.</p>
+    </div>
+
+    <div class="movie-card">
+      <img src="https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SY679_.jpg" alt="Avengers">
+      <h2>Avengers: Endgame</h2>
+      <p class="rating">⭐ 8.4</p>
+      <p>The Avengers assemble once more to reverse the damage caused by Thanos.</p>
+    </div>
+
+  </div>
+</body>
+</html>
